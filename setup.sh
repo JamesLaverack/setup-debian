@@ -13,6 +13,7 @@ if [ ! -d ~/.oh-my-zsh ] ; then
     curl -Lo /tmp/install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
     sh /tmp/install.sh --unattended
     rm /tmp/install.sh
+    rm ~/.zshrc
 fi
 
 # Emacs Prelude
